@@ -1,0 +1,26 @@
+
+rgcoe tr
+19:49 (0 dakika önce)
+Alıcı: ben
+
+rterk@LAPTOP-K9UKUPU9 MINGW64 ~/Documents/Data Sciense_USA/Git_github/Projects
+$ git config --global user.name "rterkesli"
+
+rterk@LAPTOP-K9UKUPU9 MINGW64 ~/Documents/Data Sciense_USA/Git_github/Projects
+$ git config --global user.email"rgcoe2017@gmail.com"
+
+
+repository olusturma:
+
+$ git init
+git add .
+git commit -m"v1 mesajlasma"
+git status:                   durum sorma komutu
+$ git log:                    versiyonlari gosterir
+$ git log --oneline daha ozet gosterir.i
+
+degisiklikleri geri alma:
+git restore .         working spaceden siler
+git git restore --staged .    :sadece stageden siler
+not: her iki taraftan da silinmesi gerekir.
+git reset --hard         : her iki taraftan tek komutla siler
